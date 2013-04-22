@@ -110,7 +110,7 @@ Create a nodejs-0.6 application (you can name it anything via -a)
 Add this `github strongloop-paas-quickstart` repository
 
     cd slnode
-    git remote add upstream -m master git@github.com:ramr/strongloop-paas-quickstart.git
+    git remote add upstream -m master git://github.com/ramr/strongloop-paas-quickstart.git 
     git pull -s recursive -X theirs upstream master
 
 Change directory to your application and optionally edit the StrongLoop
